@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_openwebsys_redrates_Movie" object="${movie}" path="/movies" z="CAh7nSYt+YFUNpp6qUM44Px6INE=">
+        <field:display field="movieName" id="s_com_openwebsys_redrates_Movie_movieName" object="${movie}" z="AF/AXKXfiLKfkaFO5a2Wz8hRjoc="/>
+        <field:display field="movieTrailerUrl" id="s_com_openwebsys_redrates_Movie_movieTrailerUrl" object="${movie}" z="3qSgiuj2qIy5ODAVnx9fcYDrheo="/>
+        <field:display field="rtRating" id="s_com_openwebsys_redrates_Movie_rtRating" object="${movie}" z="UIp26UMJLgf45wWEVPPAIU/NLgo="/>
+        <field:display field="imdbRating" id="s_com_openwebsys_redrates_Movie_imdbRating" object="${movie}" z="6n6OmNkL8cbe3r40kBvBRt7B1+o="/>
+        <field:display field="rtUrl" id="s_com_openwebsys_redrates_Movie_rtUrl" object="${movie}" z="PbE7pW3dhkiMv3Z0au8xox3WX7Q="/>
+        <field:display field="imdbUrl" id="s_com_openwebsys_redrates_Movie_imdbUrl" object="${movie}" z="Du8q84StzOSfUjrhGTNKd5XUw2c="/>
+        <field:display field="genre" id="s_com_openwebsys_redrates_Movie_genre" object="${movie}" z="M4Swu08vrdAC8MckUeg9QiVpO7w="/>
+        <field:display field="isComingSoon" id="s_com_openwebsys_redrates_Movie_isComingSoon" object="${movie}" z="V+D0sah9udqBSBDcrCt76sLP/6w="/>
+        <field:display field="isActive" id="s_com_openwebsys_redrates_Movie_isActive" object="${movie}" z="hb83AmaKsUAfmlxhsmnXHu51IDQ="/>
+    </page:show>
+</div>

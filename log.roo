@@ -1,0 +1,41 @@
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-08-17 19:28:14
+project --topLevelPackage com.openwebsys.redrates
+jpa setup --provider HIBERNATE --database POSTGRES --userName admin --password root
+entity jpa --class com.openwebsys.redrates.Movie --entityName Movie
+field string --fieldName movieName --sizeMax  1024 
+field string --fieldName movieTrailerUrl --sizeMax  1024 
+field number --fieldName rtRating --type int
+field number --fieldName imdbRating --type int
+field string --fieldName rtUrl --sizeMax  1024 
+field string --fieldName imdbUrl --sizeMax  1024 
+web mvc setup
+controller all --package com.openwebsys.redrates
+focus --class ~.Movie
+field string --fieldName genre --sizeMax  256
+controller all --package com.openwebsys.redrates
+controller all --package com.openwebsys.redrates
+focus --class ~.Movie
+field boolean --fieldName isComingSoon 
+controller all --package com.openwebsys.redrates
+web mvc all --package com.openwebsys.redrates
+focus --class ~.Movie
+field boolean --fieldName isActive
+// script --file log.roo.script
+exit
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2012-08-17 19:28:27
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-08-17 19:33:19
+json all
+exit
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2012-08-17 19:33:35
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-08-17 19:35:55
+json add --class ~.Movie
+json add --class ~.MovieController
+exit
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2012-08-17 19:36:14
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-08-17 19:37:21
+web mvc json all
+exit
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2012-08-17 19:37:26
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-08-23 22:34:56
+exit
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2012-08-23 22:35:00

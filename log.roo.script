@@ -1,0 +1,21 @@
+project --topLevelPackage com.openwebsys.redrates
+jpa setup --provider HIBERNATE --database POSTGRES --userName admin --password root
+entity jpa --class com.openwebsys.redrates.Movie --entityName Movie
+field string --fieldName movieName --sizeMax  1024 
+field string --fieldName movieTrailerUrl --sizeMax  1024 
+field number --fieldName rtRating --type int
+field number --fieldName imdbRating --type int
+field string --fieldName rtUrl --sizeMax  1024 
+field string --fieldName imdbUrl --sizeMax  1024 
+web mvc setup
+controller all --package com.openwebsys.redrates
+focus --class ~.Movie
+field string --fieldName genre --sizeMax  256
+controller all --package com.openwebsys.redrates
+controller all --package com.openwebsys.redrates
+focus --class ~.Movie
+field boolean --fieldName isComingSoon 
+controller all --package com.openwebsys.redrates
+web mvc all --package com.openwebsys.redrates
+focus --class ~.Movie
+field boolean --fieldName isActive

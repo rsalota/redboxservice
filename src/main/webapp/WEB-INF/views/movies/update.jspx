@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_openwebsys_redrates_Movie" modelAttribute="movie" path="/movies" versionField="Version" z="ox3URqggZTLSIZQFuyPCiWoXaYI=">
+        <field:textarea field="movieName" id="c_com_openwebsys_redrates_Movie_movieName" z="EyhaP9LEZ2izBtBGUfbhXZjgle0="/>
+        <field:textarea field="movieTrailerUrl" id="c_com_openwebsys_redrates_Movie_movieTrailerUrl" z="KJ5Pz06ZZm4e7wS9FhZMvXB41yY="/>
+        <field:input field="rtRating" id="c_com_openwebsys_redrates_Movie_rtRating" z="wYCoqMlp1r9NdoVCy9ETeOdzqBk="/>
+        <field:input field="imdbRating" id="c_com_openwebsys_redrates_Movie_imdbRating" z="Xx9PeUsBUxIrQfiIC/jV0TXcQTA="/>
+        <field:textarea field="rtUrl" id="c_com_openwebsys_redrates_Movie_rtUrl" z="OgNQ26DQjhtYtmlUXB7KcMhhfRo="/>
+        <field:textarea field="imdbUrl" id="c_com_openwebsys_redrates_Movie_imdbUrl" z="4OyoxITvruTowPULmqR7rX5uaBU="/>
+        <field:textarea field="genre" id="c_com_openwebsys_redrates_Movie_genre" z="xM0w7pf3xIusLbiQoNLJ8kXNELc="/>
+        <field:checkbox field="isComingSoon" id="c_com_openwebsys_redrates_Movie_isComingSoon" z="yxuym3p89XVfLtBS6VvSWI6E+A4="/>
+        <field:checkbox field="isActive" id="c_com_openwebsys_redrates_Movie_isActive" z="qSPRUsWtNbblawwrnWOWryKJgis="/>
+    </form:update>
+</div>

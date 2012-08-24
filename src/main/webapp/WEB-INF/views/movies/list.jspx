@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_openwebsys_redrates_Movie" items="${movies}" z="94uLBgp1rr2AAd/QLYwng6z6II8=">
+        <table:table data="${movies}" id="l_com_openwebsys_redrates_Movie" path="/movies" z="kdPn5ejCvqSJ3LkCfHx1M+WAr9c=">
+            <table:column id="c_com_openwebsys_redrates_Movie_movieName" property="movieName" z="rqj42zU/SiERHptcfmFD00PMmYs="/>
+            <table:column id="c_com_openwebsys_redrates_Movie_movieTrailerUrl" property="movieTrailerUrl" z="myGIOdHltcRfKwqOpl9weL6clEE="/>
+            <table:column id="c_com_openwebsys_redrates_Movie_rtRating" property="rtRating" z="z50Hs6jO/hkPFZTyQA+NoDp9/og="/>
+            <table:column id="c_com_openwebsys_redrates_Movie_imdbRating" property="imdbRating" z="R1fADXGoB47m3ENia5cQuHvYqco="/>
+            <table:column id="c_com_openwebsys_redrates_Movie_rtUrl" property="rtUrl" z="9NWnt1znozm9EZRLpwFlyS+FdVo="/>
+            <table:column id="c_com_openwebsys_redrates_Movie_imdbUrl" property="imdbUrl" z="Wodx3l1lKliOAAy6A5X5YCZUUMQ="/>
+        </table:table>
+    </page:list>
+</div>
